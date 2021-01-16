@@ -20,8 +20,6 @@ def count_of_pages() -> int:
 
 
 def clear_json():
-    with open('test.json', 'w', encoding='utf-8') as dick:
-        dick.write('')
     with open('test.json', 'w', encoding='utf-8') as file1:
         file1.write('')
 
